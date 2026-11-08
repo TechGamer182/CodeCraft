@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "codecraft",
+  "version": "${version}",
+  "name": "CodeCraft: Fabric Developer Academy",
+  "description": "Learn Java and Fabric through in-game coding quests and developer challenges.",
+  "authors": ["CodeCraft Team"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-docs"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.codecraft.CodeCraftMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
